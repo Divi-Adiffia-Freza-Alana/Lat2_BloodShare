@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="200dp"
+    android:paddingBottom="100dp"
+    android:orientation="vertical"
+    tools:context=".verify">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Almost There"
+    android:gravity="center"
+    android:textColor="@color/white"
+    android:textSize="40dp"
+    android:layout_marginBottom="20dp">
+
+
+</TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thankyou for registering with us One more"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="15dp">
+
+    </TextView>
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="step you need to check your email"
+    android:gravity="center"
+    android:textColor="@color/white"
+    android:textSize="15dp">
+
+</TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="to active your account"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textSize="15dp">
+
+    </TextView>
+    <Button
+        android:id="@+id/verify"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="@color/white"
+        android:text="Verify"
+        android:layout_gravity="center"
+        android:drawablePadding="20dp"
+        android:layout_marginTop="50dp"
+
+        android:background="@drawable/button_bg"
+        >
+
+    </Button>
+</LinearLayout>

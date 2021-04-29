@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="100dp"
+    android:paddingBottom="100dp"
+    android:orientation="vertical"
+    android:background="@color/blue"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_welcome_logo"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:textSize="12dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white">
+
+    </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textSize="12dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/white">
+    </EditText>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:background="@drawable/button_bg"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp">
+
+>
+
+    </Button>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white">
+    </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/button_bg"
+        android:drawableLeft="@mipmap/ic_welcome_fb_login"
+       android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:text="CONNECT WITH FACEBOOK"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+
+        ></Button>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="does'nt have account?"
+            android:textColor="@color/white"></TextView>
+
+        <Button
+            android:id="@+id/btnregis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_bg_noborder"
+
+            android:onClick="sendMessage"
+            android:paddingLeft="-15dp"
+            android:text="Register"
+            android:textAllCaps="false"
+            android:textStyle="bold"
+            tools:ignore="OnClick"
+            android:textColor="@color/white">
+
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
