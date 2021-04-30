@@ -18,11 +18,11 @@
     </LinearLayout>
 
     <de.hdodenhof.circleimageview.CircleImageView
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/ic_profile_default_large"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/photo_2021_03_27_10_09_05"
         android:layout_gravity="center"
-        android:layout_marginTop="-30dp"
+        android:layout_marginTop="-60dp"
         app:civ_border_color="#fff"
         app:civ_border_width="2dp"
 
@@ -33,7 +33,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Ahmad Hartaji"
+        android:text="DIVI ADIFFIA FREZA ALANA"
         android:textAlignment="center"
         android:layout_marginTop="10dp"
         android:textColor="@color/blue"
